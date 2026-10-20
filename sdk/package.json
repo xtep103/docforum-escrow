@@ -10,7 +10,7 @@
   ],
   "scripts": {
     "prepare": "npm run build",
-    "build": "tsc",
+    "build": "node init && tsc",
     "test": "vitest run",
     "test:integration": "vitest run",
     "test:fixtures": "vitest run tests/events.test.ts",
