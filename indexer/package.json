@@ -4,8 +4,8 @@
   "type": "module",
   "scripts": {
     "codegen": "subql codegen",
-    "build": "subql build",
-    "start": "subql-node -f .",
+    "build": "node init && subql build",
+    "start": "node init && subql-node -f .",
     "query": "subql-query --name 0.0.0.0"
   },
   "devDependencies": {
